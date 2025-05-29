@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { Header } from '@/components/Header';
 import { HeroSection } from '@/components/HeroSection';
 import { StatsSection } from '@/components/StatsSection';
+import { InteractiveCharts } from '@/components/InteractiveCharts';
 import { FeaturesSection } from '@/components/FeaturesSection';
 import { ReportingSection } from '@/components/ReportingSection';
 import { AboutSection } from '@/components/AboutSection';
@@ -17,6 +18,7 @@ const Index = () => {
       <main>
         <HeroSection language={language} />
         <StatsSection language={language} />
+        <InteractiveCharts language={language} />
         <FeaturesSection language={language} />
         <ReportingSection language={language} />
         <AboutSection language={language} />
