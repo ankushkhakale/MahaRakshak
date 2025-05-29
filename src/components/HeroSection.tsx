@@ -1,6 +1,6 @@
 
 import { Button } from '@/components/ui/button';
-import { ArrowRight, AlertTriangle, Users, MapPin, Activity } from 'lucide-react';
+import { ArrowRight, AlertTriangle, Users, MapPin } from 'lucide-react';
 import { AnimatedCounter } from './AnimatedCounter';
 import { ScrollReveal } from './ScrollReveal';
 
@@ -11,29 +11,29 @@ interface HeroSectionProps {
 export const HeroSection = ({ language }: HeroSectionProps) => {
   const text = {
     en: {
-      title: 'Intelligent COVID Patient Tracking',
-      subtitle: 'Rakshak System for Maharashtra',
+      title: 'Real-Time COVID Suspect Tracking',
+      subtitle: 'for Maharashtra',
       slogan: 'तुमचं आरोग्य, आमचं कर्तव्य!',
-      description: 'MahaRakshak integrates IoT health devices for real-time monitoring of COVID patients. Track vitals remotely, receive instant alerts on threshold breaches, and enable healthcare providers to respond swiftly.',
-      startTracking: 'Start Patient Tracking',
-      viewDashboard: 'View Live Dashboard',
+      description: 'MahaRakshak enables community-driven COVID-19 suspect tracking across Maharashtra. Report symptoms, track hotspots, and help prevent the spread.',
+      reportCase: 'Report Suspected Case',
+      viewDashboard: 'View Dashboard',
       quickStats: [
-        { icon: Activity, value: 247, label: 'Patients Under Monitoring' },
-        { icon: Users, value: 89, label: 'IoT Devices Connected', suffix: '+' },
+        { icon: AlertTriangle, value: 154, label: 'New Cases Since May 19' },
+        { icon: Users, value: 2500000, label: 'Citizens Protected', suffix: '+' },
         { icon: MapPin, value: 36, label: 'Districts Covered' }
       ]
     },
     mr: {
-      title: 'बुद्धिमान कोविड रुग्ण ट्रॅकिंग',
-      subtitle: 'महाराष्ट्रासाठी राक्षक प्रणाली',
+      title: 'रिअल-टाइम कोविड संशयित ट्रॅकिंग',
+      subtitle: 'महाराष्ट्रासाठी',
       slogan: 'तुमचं आरोग्य, आमचं कर्तव्य!',
-      description: 'महाराक्षक कोविड रुग्णांच्या रिअल-टाइम निरीक्षणासाठी IoT आरोग्य उपकरणे एकत्रित करते. दूरस्थपणे महत्वाचे चिन्हे ट्रॅक करा, थ्रेशोल्ड उल्लंघनावर तत्काळ अलर्ट मिळवा आणि आरोग्य प्रदात्यांना त्वरित प्रतिसाद देण्यास सक्षम करा.',
-      startTracking: 'रुग्ण ट्रॅकिंग सुरू करा',
-      viewDashboard: 'लाइव्ह डॅशबोर्ड पहा',
+      description: 'महाराक्षक महाराष्ट्रातील समुदाय-चालित कोविड-19 संशयित ट्रॅकिंग सक्षम करते. लक्षणे नोंदवा, हॉटस्पॉट्स ट्रॅक करा आणि प्रसार रोखण्यास मदत करा.',
+      reportCase: 'संशयित केस नोंदवा',
+      viewDashboard: 'डॅशबोर्ड पहा',
       quickStats: [
-        { icon: Activity, value: 247, label: 'निरीक्षणाधीन रुग्ण' },
-        { icon: Users, value: 89, label: 'जोडलेले IoT उपकरणे', suffix: '+' },
-        { icon: MapPin, value: 36, label: 'समाविष्ट जिल्हे' }
+        { icon: AlertTriangle, value: 154, label: '19 मे पासून नवे केसेस' },
+        { icon: Users, value: 2500000, label: 'संरक्षित नागरिक', suffix: '+' },
+        { icon: MapPin, value: 36, label: 'जिल्हे समाविष्ट' }
       ]
     }
   };
@@ -52,9 +52,9 @@ export const HeroSection = ({ language }: HeroSectionProps) => {
           {/* Main Hero Content */}
           <div className="text-center mb-16">
             <ScrollReveal delay={200}>
-              <div className="inline-flex items-center bg-green-100 text-green-800 px-4 py-2 rounded-full text-sm font-medium mb-6 hover:bg-green-200 transition-colors duration-300 cursor-pointer">
-                <Activity className="w-4 h-4 mr-2 animate-pulse" />
-                Live IoT Monitoring Active
+              <div className="inline-flex items-center bg-red-100 text-red-800 px-4 py-2 rounded-full text-sm font-medium mb-6 hover:bg-red-200 transition-colors duration-300 cursor-pointer">
+                <AlertTriangle className="w-4 h-4 mr-2 animate-pulse" />
+                COVID-19 Alert: Stay Vigilant, Stay Safe
               </div>
             </ScrollReveal>
             
@@ -81,9 +81,9 @@ export const HeroSection = ({ language }: HeroSectionProps) => {
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                 <Button 
                   size="lg" 
-                  className="bg-maharashtra-blue hover:bg-blue-700 text-white px-8 py-3 text-lg transform hover:scale-105 transition-all duration-300 hover:shadow-xl"
+                  className="bg-red-600 hover:bg-red-700 text-white px-8 py-3 text-lg transform hover:scale-105 transition-all duration-300 hover:shadow-xl"
                 >
-                  {text[language].startTracking}
+                  {text[language].reportCase}
                   <ArrowRight className="ml-2 h-5 w-5 transform group-hover:translate-x-1 transition-transform" />
                 </Button>
                 <Button 
