@@ -1,73 +1,103 @@
-# Welcome to your Lovable project
+# 🛡️ MahaRakshak – Maharashtra’s Hyperlocal Health Shield
+तुमचं आरोग्य, आमचं कर्तव्य!
 
-## Project info
+🚀 *Designed for Maharashtra | Powered by the People*
 
-**URL**: https://lovable.dev/projects/3e7d67ec-6f4a-4b16-bec9-250ffab5ac89
+---
 
-## How can I edit this code?
+## 📌 What is MahaRakshak?
 
-There are several ways of editing your application.
+**MahaRakshak** is a web-first COVID suspect tracker tailored for **Maharashtra**, built to empower citizens and assist health authorities through **community-driven reporting**, **hyperlocal data**, and **real-time mapping**.
 
-**Use Lovable**
+It’s not just a tracker — it’s an **early warning system**, an **action dashboard**, and a **public safety tool**.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/3e7d67ec-6f4a-4b16-bec9-250ffab5ac89) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🔥 Why MahaRakshak Stands Out
 
-**Use your preferred IDE**
+- 🧭 **Hyperlocal**: Works at district and taluka levels — not just national stats.
+- 👥 **Community-Powered**: People self-report symptoms; clusters form organically.
+- 🌐 **Web-First**: No downloads. Works on any browser — even low-end devices.
+- 🧩 **Modular & Scalable**: Easily extendable for vaccination alerts, AI, or telehealth.
+- 💬 **Marathi-English UI**: Makes it accessible to all regions of Maharashtra.
+- 🔒 **Privacy First**: No unnecessary data collection. Citizens stay in control.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🏗️ Current Progress
 
-Follow these steps:
+✅ **Frontend Ready**  
+- Fully responsive, user-friendly web UI
+- Symptom report form, hotspot map, and basic dashboard  
+- Marathi-English toggle for inclusive access  
+- Built for rapid scaling and easy navigation
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+⚙️ **Backend Plug-Ready**  
+- Frontend structured to integrate Firebase or Node.js APIs  
+- Database schema planned for real-time updates and map rendering  
+- Just needs connection to go live
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 🛠️ Tech Stack
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+### 🔧 Frontend
+- **React.js** – Interactive and component-driven
+- **Tailwind CSS** – Fast, responsive styling
+- **React Router** – Seamless page transitions
+- **Leaflet.js** – Dynamic, location-based mapping
+- **Chart.js** – Data visualizations for trends
 
-**Edit a file directly in GitHub**
+### 🖥️ Backend *(Planned / In Progress)*
+- **Node.js + Express.js** – Scalable REST API
+- **Firebase Realtime DB / Firestore** – Instant data sync  
+- **Firebase Auth** – Easy, secure user sign-in (Google, OTP, etc.)
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### ☁️ Hosting
+- **Frontend**: Vercel / Netlify – One-click deploys
+- **Backend**: Render / Firebase Functions
+- **Database**: Firebase – Fully managed, zero setup
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🌍 Real-World Impact
 
-## What technologies are used for this project?
+- 📍 Detects outbreaks early — even before official confirmation
+- 🚨 Sends alerts to nearby users during cluster spikes
+- 🧾 Reduces load on clinics by enabling self-assessment
+- 📊 Supports real-time dashboards for authorities
+- 💡 Enables fast, local decisions to prevent spread
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 📈 Scalability
 
-## How can I deploy this project?
+- Start with one district, expand statewide in days  
+- Add new modules (vaccines, AI risk scoring) without breaking flow  
+- Use in other states or countries with minimal localization  
+- Built to work even in low-infra networks with minimal setup
 
-Simply open [Lovable](https://lovable.dev/projects/3e7d67ec-6f4a-4b16-bec9-250ffab5ac89) and click on Share -> Publish.
+---
 
-## Can I connect a custom domain to my Lovable project?
+## 🧪 Built For Hackathons
 
-Yes, you can!
+- Modular & lightweight
+- Easy to demo, easy to scale
+- Focused on **impact over polish**
+- Judges can test it live, no installs needed
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## 🙌 Team MahaRakshak
+
+Made by passionate builders who care about local health, accessibility, and digital empowerment.
+Team - Neon Genesis
+---
+
+## 💬 Final Words
+
+MahaRakshak is more than a hackathon webapp —  
+It’s a **prototype for public health readiness**, designed to save lives through smart tech and local action.  
+
+**Built with urgency, empathy, and purpose.**
+
