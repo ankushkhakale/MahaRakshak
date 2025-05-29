@@ -4,7 +4,9 @@ import { Header } from '@/components/Header';
 import { HeroSection } from '@/components/HeroSection';
 import { StatsSection } from '@/components/StatsSection';
 import { InteractiveCharts } from '@/components/InteractiveCharts';
-import { FeaturesSection } from '@/components/FeaturesSection';
+import { GovernmentData } from '@/components/GovernmentData';
+import { GovernmentInitiatives } from '@/components/GovernmentInitiatives';
+import { GovernmentGuidelines } from '@/components/GovernmentGuidelines';
 import { ReportingSection } from '@/components/ReportingSection';
 import { AboutSection } from '@/components/AboutSection';
 import { Footer } from '@/components/Footer';
@@ -19,7 +21,9 @@ const Index = () => {
         <HeroSection language={language} />
         <StatsSection language={language} />
         <InteractiveCharts language={language} />
-        <FeaturesSection language={language} />
+        <GovernmentData language={language} />
+        <GovernmentInitiatives language={language} />
+        <GovernmentGuidelines language={language} />
         <ReportingSection language={language} />
         <AboutSection language={language} />
       </main>
