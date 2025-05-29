@@ -3,6 +3,9 @@ import { useState } from 'react';
 import { Header } from '@/components/Header';
 import { HeroSection } from '@/components/HeroSection';
 import { StatsSection } from '@/components/StatsSection';
+import { IntelligentTrackingDashboard } from '@/components/IntelligentTrackingDashboard';
+import { InteractiveMap } from '@/components/InteractiveMap';
+import { IoTMonitoring } from '@/components/IoTMonitoring';
 import { InteractiveCharts } from '@/components/InteractiveCharts';
 import { GovernmentData } from '@/components/GovernmentData';
 import { GovernmentInitiatives } from '@/components/GovernmentInitiatives';
@@ -20,6 +23,9 @@ const Index = () => {
       <main>
         <HeroSection language={language} />
         <StatsSection language={language} />
+        <IntelligentTrackingDashboard language={language} />
+        <InteractiveMap language={language} />
+        <IoTMonitoring language={language} />
         <InteractiveCharts language={language} />
         <GovernmentData language={language} />
         <GovernmentInitiatives language={language} />
